@@ -1,4 +1,4 @@
-<img src="./images/saitama.png" alt="Apply Digital Automation Test" width="100"/><img src="./images/applyDigitalLogo.png" width="300"/>
+<img src="./images/Saitama.png" alt="Apply Digital Automation Test" width="100"/><img src="./images/applyDigitalLogo.png" width="300"/>
 ---
 
 Automation Test for Apply Digital Automation role
