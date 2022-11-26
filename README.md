@@ -1,7 +1,13 @@
 <img src="./images/Saitama.png" alt="Apply Digital Automation Test" width="100"/><img src="./images/applyDigitalLogo.png" width="300"/>
 ---
 
-Automation Test for Apply Digital Automation role
+Automation Test for Apply Digital Automation role to cover the [following document requirement](https://drive.google.com/file/d/1Y1pWje9niI1RuPvxzYvAxGAOtTSeRBo_/view?usp=sharing).
+
+## Tech Stack used
+**Automation Framework**: Cypress
+**Language used**: Typescript with a little bit of JS as well (For a pesky CSRF token control that was bugging me on the actual login/signup process)
+**Pattern used**: Basic Page Object Model, nothing related to BDD/Gherkin whatsoever as it wasn’t needed.
+**Reporting**: Used Allure for better visualization, although it’s just a simple spec file, it helps to visualize the different steps from it
 
 ## :wrench:**Installation**
 
@@ -38,5 +44,7 @@ After executing all of this, you'll come up with a report that will look like th
 ## :green_book: Additional Information and References
 
 **Cypress Docs**: https://docs.cypress.io/guides/end-to-end-testing/testing-your-app
+
 **Allure Main Docs**: https://docs.qameta.io/allure/
+
 **Allure Cypress specific**: https://www.npmjs.com/package/@shelex/cypress-allure-plugin
