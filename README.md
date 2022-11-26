@@ -14,8 +14,10 @@ And that should be all... **Hopefully**
 ---
 ## :construction_worker:**Usage**
 - In order to run some tests, you should first pay attention to the commands to call the tests, those commands are defined at the _**package.json**_ file at the *"scripts"* section, but overall you have 2 options to run your tests:
-        **1.-** **`npm run cy:e2e`**: This commend will run them directly through the Cypress GUI and then will allow you to pick the only :sweat_smile: spec file available _(Pretty silly isn't it? haha :stuck_out_tongue_winking_eye:)_
-        **2.-** **`npm run test:allure`**: My recommended and more fancy way to run this is to use Allure Reporter and get to see their beautiful reports, videos of the execution and a pretty good summary of the run itself _(this will first run the tests and then generate the reports, since it chains two commands into one for ease of use)_
+
+    **1.-** **`npm run cy:e2e`**: This commend will run them directly through the Cypress GUI and then will allow you to pick the only :sweat_smile: spec file available _(Pretty silly isn't it? haha :stuck_out_tongue_winking_eye:)_
+
+    **2.-** **`npm run test:allure`**: My recommended and more fancy way to run this is to use Allure Reporter and get to see their beautiful reports, videos of the execution and a pretty good summary of the run itself _(this will first run the tests and then generate the reports, since it chains two commands into one for ease of use)_
 
 
 > **NOTE** It's important to mention that since this automation project barely needs 1 general flow of user actions, it will look kinda silly as well, but at least it helps to visualize things in a different way of the standard Cypress GUI which is mostly intended for debugging purposes.*
