@@ -5,8 +5,11 @@ Automation Test for Apply Digital Automation role to cover the [following docume
 
 ## Tech Stack used
 **Automation Framework**: Cypress
+
 **Language used**: Typescript with a little bit of JS as well (For a pesky CSRF token control that was bugging me on the actual login/signup process)
+
 **Pattern used**: Basic Page Object Model, nothing related to BDD/Gherkin whatsoever as it wasn’t needed.
+
 **Reporting**: Used Allure for better visualization, although it’s just a simple spec file, it helps to visualize the different steps from it
 
 ## :wrench:**Installation**
